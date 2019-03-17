@@ -27,12 +27,12 @@ import { KolibriComponent } from './kolibri.component';
       expect(circuloarea).toEqual(50.4)
     })
   );
-  /*it('debe calcular el area de un triangulo 5*8^2=20',
+   it('debe calcular el area de un triangulo (5*8)/2=20',
     inject([KolibriComponent], (service: KolibriComponent) => {
       let trianguloarea = service.calcular(5, 8, KolibriComponent.trianguloarea);
       expect(trianguloarea).toEqual(20)
     })
-  
+
   );
-*/
+  
 });
