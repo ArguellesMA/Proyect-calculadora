@@ -6,7 +6,7 @@ export class KolibriComponent {
 
   static readonly resta: string = '-';
   static readonly circuloarea: string = '*';
-  static readonly trianguloarea: string = '*';
+  static readonly trianguloarea: string = '/';
 
   constructor() { }
 
@@ -21,7 +21,7 @@ export class KolibriComponent {
         resultado = 3.15 * (num1 * num2);
         break;
       case KolibriComponent.trianguloarea:
-        resultado = num1 * num2 *2;
+        resultado = (num1 * num2) / 2 ;
         break;
       default:
         resultado = 0;
